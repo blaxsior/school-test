@@ -9,6 +9,7 @@ function f()
             const board = document.body.querySelector('#board');
             const elem = document.createElement('div');
             const text = document.createTextNode(`This is Text Node! : ${count}`);
+            // something changed!
             count++;
             elem.appendChild(text);
             board.appendChild(elem);
